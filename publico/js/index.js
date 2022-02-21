@@ -2,6 +2,7 @@ const myModal = new bootstrap.Modal ("#register-Modal");
 let logged= sessionStorage.getItem("logged");
 const session= localStorage.getItem("session");
 
+checklog();
 //logar no sistema
  document.getElementById("login-form").addEventListener("submit", function(e){
      e.preventDefault();
